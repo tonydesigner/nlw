@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,400&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+html,body{height: auto;font-family: 'Poppins', sans-serif; background-image:url('../img/fundo.png'); background-repeat:no-repeat; background-size:cover: background-position:center}
+
+.center{display: flex;justify-content: center;align-items: center;}
+.margin{display: flex;justify-content: space-around;align-items: center;}
+.space{display: flex;justify-content: space-between;align-items: center;}
+
+.brd{border: 1px solid;}
+
+.topo{width:479px; height:190px; margin: 2em auto; }
+.img{transition: transform 1s ease; width: 143px; height: 143px; background:linear-gradient(90deg, #9276F9, #44E6AC, #DBD560);border-radius: 50%;}
+.img img{cursor:pointer; border-radius: 50%;width:134px; height:134px; text-align:center;}
+.img:hover{transform: scale(1.1);}
+.jogos{ width:479px;height:224px; border-radius:1em;margin: 0 auto;background:linear-gradient(90deg, #9276F9, #44E6AC, #DBD560); }
+
+.dados{ width:479px; height:225px; margin-top:1em;background-color: #2a2244; border-radius:1em;}
+.dados h1{color:#fff;margin: .3em .7em;}
+.dados p{color:#666; margin: .6em .7em;}
+
+
+
+.mostra{ height: 131px;width:97%; margin:0 auto;}
+.mostra img{ transition: 1s ease;	 width:103px;height:125px; border-radius: .5em; margin-left:.7em;cursor:pointer; }
+.mostra img:hover{transform: scale(1.1);}
+
+.canais{position:relative; top:1em; width:479px;height:224px; border-radius:1em;margin: 0 auto;background:linear-gradient(90deg, #9276F9, #44E6AC, #DBD560); }
+.exibe{ height: 131px;width:97%; margin:0 auto;}
+.exibe img{transition: 1s ease; width:56px;height:56px; border-radius: 50%; margin: 2em .7em;cursor:pointer; }
+.exibe img:hover{transform: scale(1.1);}
+
+.redes img{width:56px;height:56px; border-radius: 50%; margin: 2em .7em;cursor:pointer; transition:1s ease; }
+.redes img:hover{transform: scale(1.2)}
+
+
+@keyframes acao{
+	from{opacity:0; transform: translateY(-50px);  }
+	to{opacity:1; trasform:translateX();}
+}
+		
+
